@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+int num;
+printf("enter the number:");
+scanf("%d",&num);
+int fac=1;
+for(int i=1;i<=num;i++){
+fac*=i;
+}
+printf("fac:%d",fac);
+return 0;
+}
